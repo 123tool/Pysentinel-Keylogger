@@ -20,7 +20,7 @@ Versi ini merupakan evolusi dari skrip pemantauan orisinal, mempertahankan algor
 3. Pastikan Anda sudah mengklik **/start** pada bot yang Anda buat.
 
 ### 2. Instalasi Library
-Skrip ini membutuhkan Python 3.x. Buka terminal/CMD dan jalankan:
+Skrip ini membutuhkan Python 3.x. Buka terminal dan jalankan:
 ```bash
 pip install pynput requests
 
